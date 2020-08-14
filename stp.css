@@ -1,6 +1,10 @@
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
 
-
+body {
+    font-family: 'NanumSquare', sans-serif !important;
+    margin: 0;
+    background-color: #fafcff;
+}
 .titl {
     padding: 0;
     width: screen;
@@ -64,8 +68,4 @@ p {
     font-size: 18px;
     margin-top: 5px;
 }
-body {
-    font-family: 'NanumSquare', sans-serif !important;
-    margin: 0;
-    background-color: #fafcff;
-}
+

@@ -1,7 +1,7 @@
-@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+@import url(https://cdn.jsdelivr.net/gh/moonspam/NanumSquare@1.0/nanumsquare.css);
 
 body {
-    font-family: 'NanumSquare', sans-serif !important;
+    font-family: 'NanumSquare', sans-serif;
     margin: 0;
     background-color: #fafcff;
 }
@@ -68,4 +68,3 @@ p {
     font-size: 18px;
     margin-top: 5px;
 }
-

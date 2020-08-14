@@ -1,5 +1,4 @@
-@import url('http://fonts.googleapis.com/earlyaccess/nanumgothic.css');
-
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
 
 
 .titl {
@@ -66,7 +65,7 @@ p {
     margin-top: 5px;
 }
 body {
-    font-family:"Montserrat","Nanum Square","NanumSquare", sans-serif !important; letter-spacing:0px !important;
+    font-family: 'NanumSquare', sans-serif !important;
     margin: 0;
     background-color: #fafcff;
 }

@@ -5,6 +5,15 @@ body {
     font-family: 'NanumSquare', sans-serif !important;
 }
 
+.bttn {
+    background-color: black;
+    color: white;
+    border-radius: 5px;
+    border: 0;
+    padding: 10px;
+    font-size: 15px;
+}
+
 .bar{
     padding: 0;
     width: screen;

@@ -1,0 +1,389 @@
+@import url('https://cdn.rawgit.com/moonspam/NanumSquare/master/nanumsquare.css');
+@import url('http://fonts.googleapis.com/earlyaccess/nanumgothic.css');
+@import url('https://fonts.googleapis.com/css2?family=Nanum+Pen+Script&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Jua&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Nanum+Myeongjo&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Dokdo&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+KR&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Single+Day&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Nanum+Brush+Script&display=swap');
+
+
+body {
+    margin: 0px;
+    font-family: 'Noto Sans KR', sans-serif;
+}
+
+xmp {
+    font-family: '굴림';
+}
+pre {
+    font-family: 'Noto Sans KR', sans-serif;
+}
+.albr {
+    height: 101%
+}
+
+
+.drgx {
+    -ms-user-select: none; 
+    -moz-user-select: -moz-none;
+    -khtml-user-select: none;
+    -webkit-user-select: none;
+    user-select: none;
+    -webkit-user-drag: none;
+    -webkit-user-drag: none;
+    -khtml-user-drag: none;
+    -moz-user-drag: none;
+    -o-user-drag: none;
+}
+
+.clk {
+    cursor: pointer;
+}
+
+.nnsk {
+    font-family: 'NanumSquare', sans-serif !important;
+}
+
+.nnpn {
+    font-family: 'Nanum Pen Script', cursive;
+}
+
+.bmja {
+    font-family: 'Jua', sans-serif;
+}
+
+.gnsr {
+    font-family: '궁서'
+}
+
+.grim {
+    font-family: '굴림'
+}
+
+.btan {
+    font-family: '바탕';
+}
+
+.dodm {
+    font-family: '돋움';
+}
+
+.myzo {
+    font-family: 'Nanum Myeongjo', serif;
+}
+
+.gotc {
+    font-family: '고딕';
+}
+
+.dcdo {
+    font-family: 'Dokdo', cursive;
+}
+
+.nngt {
+    font-family: 'Nanum Gothic', Droid Serif !important;
+}
+
+.sida {
+    font-family: 'Single Day', cursive;
+}
+
+.nnbr {
+    font-family: 'Nanum Brush Script', cursive;
+}
+
+.ttl{
+    line-height: 150px;
+    width: screen;
+    height: 150px;
+    background: black;
+    text-align: center;
+    font-size: 53px;
+    font-weight: 700;
+    color: white;
+    -ms-user-select: none; 
+    -moz-user-select: -moz-none;
+    -khtml-user-select: none;
+    -webkit-user-select: none;
+    user-select: none;
+    -webkit-user-drag: none;
+    -webkit-user-drag: none;
+    -khtml-user-drag: none;
+    -moz-user-drag: none;
+    -o-user-drag: none;
+}
+
+.end{
+    line-height: 40px;
+    width: screen;
+    height: 40px;
+    background: black;
+    text-align: center;
+    font-size: 18px;
+    color: white;
+    -ms-user-select: none; 
+    -moz-user-select: -moz-none;
+    -khtml-user-select: none;
+    -webkit-user-select: none;
+    user-select: none;
+    -webkit-user-drag: none;
+    -webkit-user-drag: none;
+    -khtml-user-drag: none;
+    -moz-user-drag: none;
+    -o-user-drag: none;
+    margin-top: 20px;
+}
+
+button {
+    font-family: 'Noto Sans KR', sans-serif;
+    transition: 0.25s;
+    color: black;
+    background-color: black;
+    color: white;
+    border-radius: 5px;
+    border: 1px solid black;
+    padding: 10px;
+    font-size: 17px;
+}
+
+button:hover {
+    font-family: 'Noto Sans KR', sans-serif;
+    transition: 0.25s;
+    color: white;
+    background-color: white;
+    color: black;
+    border-radius: 5px;
+    padding: 10px;
+    font-size: 17px;
+    border: 1px solid black;
+    cursor: pointer;
+}
+
+.line{
+    margin: 50 0 50 0px;
+    width: screen;
+    height: 1px;
+    background: black;
+    text-align: left;
+}
+
+select {
+    transition: 0.25s;
+    color: black;
+    background-color: black;
+    color: white;
+    border-radius: 5px;
+    padding: 7px;
+    font-size: 17;
+    border: 1px solid white;
+}
+
+select:hover {
+    transition: 0.25s;
+    color: white;
+    background-color: white;
+    color: black;
+    border-radius: 5px;
+    padding: 7px;
+    font-size: 17;
+    border: 1px solid black;
+    cursor: pointer;
+}
+
+option {
+    background-color: black;
+    color: white;
+}
+
+img {
+    border-radius: 5px;
+}
+
+blockquote {
+    margin: 10px;
+    line-height: 90px;
+    width: screen;
+    height: 100px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    background: black;
+    text-align: center;
+    font-size: 30px;
+    color: white;
+    border-radius: 10px;
+    line-height:100px;
+    -ms-user-select: none; 
+    -moz-user-select: -moz-none;
+    -khtml-user-select: none;
+    -webkit-user-select: none;
+    user-select: none;
+    -webkit-user-drag: none;
+    -webkit-user-drag: none;
+    -khtml-user-drag: none;
+    -moz-user-drag: none;
+    -o-user-drag: none;
+}
+
+.prpl {
+    border-radius: 40%;
+    cursor: pointer;
+}
+
+hr {
+    background-color: gray;
+    border: 0;
+    height: 1px;
+    margin: 40 0 40 0px;
+}
+
+.stmp {
+    line-height: 55px;
+    width: screen;
+    height: 55px;
+    background: white;
+    font-size: 23px;
+    color: black;
+    border-bottom: 1px;
+    padding-left: 14px;
+    padding-right: 14px;
+    box-shadow: 0px 4px 5px rgb(238, 238, 238);
+    -ms-user-select: none; 
+    -moz-user-select: -moz-none;
+    -khtml-user-select: none;
+    -webkit-user-select: none;
+    user-select: none;
+    -webkit-user-drag: none;
+    -webkit-user-drag: none;
+    -khtml-user-drag: none;
+    -moz-user-drag: none;
+    -o-user-drag: none;
+}
+
+h1 {
+    font-size: 60px;
+    font-weight: 600;
+}
+h2 {
+    font-size: 40px;
+    font-weight: 550;
+}
+h3 {
+    font-size: 30px;
+    font-weight: 540;
+}
+h4 {
+    font-size: 25px;
+    font-weight: 530;
+}
+h5 {
+    font-size: 20px;
+    font-weight: 520;
+}
+h6 {
+    font-size: 18px;
+    font-weight: 510;
+}
+p {
+    font-size: 16px;
+}
+
+.sdw {
+    box-shadow: 0px 10px 10px rgb(238, 238, 238);
+}
+
+.zacd a {
+    text-decoration:none;
+    transition: 0.25s;
+    color: white;
+}
+
+.zacd a:hover {
+    text-decoration:none;
+    transition: 0.25s;
+    color: black;
+}
+
+.zacu {
+    background-color: white;
+    border-bottom: 0;
+    width: 500px;
+    height: 275px;
+    border-radius: 10px 10px 0 0;
+    background-size: 500px 275px;
+    display: block;
+}
+
+.zacd {
+    transition: 0.25s;
+    color: white;
+    background-color: black;
+    border: 1px solid black;
+    width: 500px;
+    height: 100px;
+    border-radius: 0 0 10px 10px;
+    display: block;
+    cursor: pointer;
+}
+
+.zacd:hover {
+    transition: 0.25s;
+    color: black;
+    background-color: white;
+    border: 1px solid black;
+    width: 500px;
+    height: 100px;
+    border-radius: 0 0 10px 10px;
+}
+
+a {
+    margin: 0;
+    text-decoration:none;
+}
+
+sans div {
+    background-repeat: no-repeat;
+    background-position: center center;
+    transition: 1s;
+    width: 100%;
+    height: 300px;
+    background-color: white;
+    float: left;
+    cursor: pointer;
+}
+.a {
+    width: 0%;
+    height: 0px;
+}
+.b {
+    width: 0%;
+    height: 200px;
+}
+papa div {
+    transition: 1s;
+    border-bottom: 150px solid white;
+    border-right: 30px solid transparent;
+    height: 0;
+    color: black;
+    width: 0;
+}
+.dsa {
+    transition: 1s;
+    border-bottom: 150px solid white;
+    border-right: 30px solid transparent;
+    height: 0;
+    color: black;
+    width: calc(100% - 300px);
+}
+.dsa2 {
+    transition: 1s;
+    border-bottom: 150px solid white;
+    border-right: 0px solid transparent;
+    border-left: 30px solid transparent;
+    height: 0;
+    color: black;
+    width: calc(100% - 300px);
+    text-align: right;
+    margin-left: 270px;
+}

@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="597.505" height="597.71" viewBox="0 0 597.505 597.71">
+  <g id="그룹_1" data-name="그룹 1" transform="translate(246.073 -319.612) rotate(45)">
+    <g id="타원_1" data-name="타원 1" transform="translate(252 200)" fill="none" stroke="#fff" stroke-width="20">
+      <circle cx="200" cy="200" r="200" stroke="none"/>
+      <circle cx="200" cy="200" r="190" fill="none"/>
+    </g>
+    <line id="선_1" data-name="선 1" x2="250" transform="translate(637.145 400.145)" fill="none" stroke="#fff" stroke-width="20"/>
+  </g>
+</svg>

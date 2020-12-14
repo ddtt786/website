@@ -1,3 +1,4 @@
+
 const entry = {
     ds: {
         free: {
@@ -20,7 +21,7 @@ const entry = {
                     delfree = d.data[0]._id;
                     if(del == undefined) {
                         $.ajax({
-                            url: `https://playentry.org/api/discuss/${_id}`,
+                            url: `https://playentry.org/api/discuss/${delfree}`,
                             type: "DELETE",
                         })
                     }else{
@@ -52,7 +53,7 @@ const entry = {
                     delfree = d.data[0]._id;
                     if(del == undefined) {
                         $.ajax({
-                            url: `https://playentry.org/api/discuss/${_id}`,
+                            url: `https://playentry.org/api/discuss/${delfree}`,
                             type: "DELETE",
                         })
                     }else{
@@ -84,7 +85,7 @@ const entry = {
                     delfree = d.data[0]._id;
                     if(del == undefined) {
                         $.ajax({
-                            url: `https://playentry.org/api/discuss/${_id}`,
+                            url: `https://playentry.org/api/discuss/${delfree}`,
                             type: "DELETE",
                         })
                     }else{
@@ -141,4 +142,3 @@ const entry = {
         }
     }
 }
-

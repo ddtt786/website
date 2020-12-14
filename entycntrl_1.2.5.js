@@ -152,9 +152,6 @@ setInterval(() => {
         entry.ds.free.user = d.data[0].owner;
         entry.ds.free.user = user.username;
         entry.ds.free.created = d.data[0].created;
-        $.get('https://playentry.org/api/discuss/'+id, d => {
-            content=d.content;
-        })
     })
     $.get('https://playentry.org/api/discuss/find?category=qna', d => {
         entry.ds.qna.text = d.data[0].title;
@@ -164,9 +161,6 @@ setInterval(() => {
         entry.ds.qna.user = d.data[0].owner;
         entry.ds.qna.user = user.username;
         entry.ds.qna.created = d.data[0].created;
-        $.get('https://playentry.org/api/discuss/'+id, d => {
-            content=d.content;
-        })
     })
     $.get('https://playentry.org/api/discuss/find?category=tips', d => {
         entry.ds.tip.text = d.data[0].title;
@@ -176,8 +170,5 @@ setInterval(() => {
         entry.ds.tip.user = d.data[0].owner;
         entry.ds.tip.user = user.username;
         entry.ds.tip.created = d.data[0].created;
-        $.get('https://playentry.org/api/discuss/'+id, d => {
-            content=d.content;
-        })
     })
 }, 300)

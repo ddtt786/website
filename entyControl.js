@@ -1,5 +1,3 @@
-(async () => {
-    eval(await fetch('https://code.jquery.com/jquery.js').then(resp => resp.text()))
     const entry = {
         ds: {
             free: {
@@ -118,5 +116,4 @@
                 }
             }
         }
-    }    
-})()
+    }

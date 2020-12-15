@@ -1,4 +1,4 @@
-let __title
+let ___title
 let __id
 let __like
 let __view
@@ -11,7 +11,7 @@ const entry = {
             get(getr) {
                 $.ajaxSetup({ async: false });
                 $.get('https://playentry.org/api/discuss/find?category=free', d => {
-                    __title = d.data[0].title;
+                    ___title = d.data[0].title;
                     __id = d.data[0]._id;
                     __like = d.data[0].likesLength;
                     __view = d.data[0].visit;
@@ -59,7 +59,7 @@ const entry = {
             get(getr) {
                 $.ajaxSetup({ async: false });
                 $.get('https://playentry.org/api/discuss/find?category=qna', d => {
-                    __title = d.data[0].title;
+                    ___title = d.data[0].title;
                     __id = d.data[0]._id;
                     __like = d.data[0].likesLength;
                     __view = d.data[0].visit;
@@ -107,7 +107,7 @@ const entry = {
             get(getr) {
                 $.ajaxSetup({ async: false });
                 $.get('https://playentry.org/api/discuss/find?category=tips', d => {
-                    __title = d.data[0].title;
+                    ___title = d.data[0].title;
                     __id = d.data[0]._id;
                     __like = d.data[0].likesLength;
                     __view = d.data[0].visit;

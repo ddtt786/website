@@ -3,25 +3,25 @@ let __id
 let __like
 let __view
 let __user
+let ret
 const entry = {
     ds: {
         free: {
             my : `https://playentry.org/api/discuss/find?username=${user.username}&title=&search_title=&sort=created&rows=0&page=1&category=free`,
             get(getr) {
+                $.ajaxSetup({ async: false });
                 $.get('https://playentry.org/api/discuss/find?category=free', d => {
-                    async: false
                     __title = d.data[0].title;
                     __id = d.data[0]._id;
                     __like = d.data[0].likesLength;
                     __view = d.data[0].visit;
                     __user = d.data[0].owner;
+                    if(getr == "title"){ret = __title}
+                    if(getr == "id"){ret = __id}
+                    if(getr == "like"){ret = __like}
+                    if(getr == "view"){ret = __view}
+                    if(getr == "user"){ret = __user}
                 })
-                var ret
-                if(getr == "title"){ret = __title}
-                if(getr == "id"){ret = __id}
-                if(getr == "like"){ret = __like}
-                if(getr == "view"){ret = __view}
-                if(getr == "user"){ret = __user}
                 return ret
             },
             write(t,p) {
@@ -57,20 +57,19 @@ const entry = {
         qna: {
             my : `https://playentry.org/api/discuss/find?username=${user.username}&title=&search_title=&sort=created&rows=0&page=1&category=qna`,
             get(getr) {
+                $.ajaxSetup({ async: false });
                 $.get('https://playentry.org/api/discuss/find?category=qna', d => {
-                    async: false
                     __title = d.data[0].title;
                     __id = d.data[0]._id;
                     __like = d.data[0].likesLength;
                     __view = d.data[0].visit;
                     __user = d.data[0].owner;
+                    if(getr == "title"){ret = __title}
+                    if(getr == "id"){ret = __id}
+                    if(getr == "like"){ret = __like}
+                    if(getr == "view"){ret = __view}
+                    if(getr == "user"){ret = __user}
                 })
-                var ret
-                if(getr == "title"){ret = __title}
-                if(getr == "id"){ret = __id}
-                if(getr == "like"){ret = __like}
-                if(getr == "view"){ret = __view}
-                if(getr == "user"){ret = __user}
                 return ret
             },
             write(t,p) {
@@ -106,20 +105,19 @@ const entry = {
         tip: {
             my : `https://playentry.org/api/discuss/find?username=${user.username}&title=&search_title=&sort=created&rows=0&page=1&category=tips`,
             get(getr) {
+                $.ajaxSetup({ async: false });
                 $.get('https://playentry.org/api/discuss/find?category=tips', d => {
-                    async: false
                     __title = d.data[0].title;
                     __id = d.data[0]._id;
                     __like = d.data[0].likesLength;
                     __view = d.data[0].visit;
                     __user = d.data[0].owner;
+                    if(getr == "title"){ret = __title}
+                    if(getr == "id"){ret = __id}
+                    if(getr == "like"){ret = __like}
+                    if(getr == "view"){ret = __view}
+                    if(getr == "user"){ret = __user}
                 })
-                var ret
-                if(getr == "title"){ret = __title}
-                if(getr == "id"){ret = __id}
-                if(getr == "like"){ret = __like}
-                if(getr == "view"){ret = __view}
-                if(getr == "user"){ret = __user}
                 return ret
             },
             write(t,p) {
